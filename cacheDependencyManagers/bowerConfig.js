@@ -23,5 +23,5 @@ module.exports = {
   cliName: 'bower',
   configPath: path.resolve(process.cwd(), 'bower.json'),
   installDirectory: getBowerInstallDirectory(),
-  installCommand: 'bower install'
+  installCommand: 'bower install --allow-root'
 };
